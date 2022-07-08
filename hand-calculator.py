@@ -1,3 +1,5 @@
+echo "This is my Jenkins demo Project"
+
 import cv2
 import numpy as np
 import pickle
@@ -5,6 +7,7 @@ import math
 import sqlite3
 from collections import Counter, deque
 from keras.models import load_model
+
 
 model = load_model('cnn_model_keras2.h5')
 
